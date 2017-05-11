@@ -1,0 +1,25 @@
+{
+  "name": "react-data-grid-wrapper",
+  "version": "0.0.0",
+  "description": "Wrapper around react-data-grid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takuu/react-data-grid-wrapper.git"
+  },
+  "author": "Taku Uechi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takuu/react-data-grid-wrapper/issues"
+  },
+  "homepage": "https://github.com/takuu/react-data-grid-wrapper#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.9",
+    "react": "^15.5.4",
+    "react-data-grid": "2.0.41"
+  }
+}
