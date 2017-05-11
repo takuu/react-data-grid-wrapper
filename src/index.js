@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ReactDataGrid from 'react-data-grid';
 import _ from 'lodash';
-import './style.css';
 
 class DataTable extends React.Component {
   constructor() {
