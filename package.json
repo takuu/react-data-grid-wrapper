@@ -2,7 +2,7 @@
   "name": "react-data-grid-wrapper",
   "version": "0.0.2",
   "description": "Wrapper around react-data-grid.",
-  "main": "build/DataTable.js",
+  "main": "./build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir build"
