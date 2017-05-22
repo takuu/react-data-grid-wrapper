@@ -1,6 +1,6 @@
 {
   "name": "react-data-grid-wrapper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Wrapper around react-data-grid.",
   "main": "./build/index.js",
   "scripts": {
