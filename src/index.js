@@ -78,7 +78,7 @@ class DataTable extends React.Component {
     return (
       <div>
         <ReactDataGrid
-          enableCellSelect
+          enableCellSelect={true}
           onGridSort={this.handleGridSort}
           columns={this.props.columns}
           onGridRowsUpdated={this.handleGridRowsUpdated}
