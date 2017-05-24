@@ -1,3 +1,3 @@
 require('babel-core/register')
 require('babel-polyfill')
-require('./basic.js')
+require('./ExamplePage.js')

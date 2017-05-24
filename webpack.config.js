@@ -34,6 +34,13 @@ module.exports = {
                     plugins: ['transform-react-jsx']
                 }
             },
+            {
+                test: /\.css$/,
+                loader: ExtractTextPlugin.extract({
+                    fallbackLoader: "style-loader",
+                    loader: "css-loader"
+                }),
+            },
         ]
     },
     plugins: [
