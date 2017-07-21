@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import DataTable, { createDataTableObject } from '../src/DataTable';
+import DataTable, { createDataTableObject } from '../src/index';
 import SimpleTable from './SimpleTable';
 import UpdateableTable from './UpdateableTable';
 import CustomTable from './CustomTable';

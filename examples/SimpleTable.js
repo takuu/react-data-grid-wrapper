@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import DataTable, { createDataTableObject } from '../src/DataTable';
+import DataTable, { createDataTableObject } from '../src/index';
 
 const columns = [
     { key: 'FirstName', name: 'First Name', sortable: true },

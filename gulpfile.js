@@ -5,7 +5,7 @@ var babelify = require('babelify');
 
 gulp.task('build', function () {
     // return buildScript('main.js', false);
-    return gulp.src('./DataTable.js')
+    return gulp.src('./index.js')
         .pipe(bro({
             transform: [
                 babelify.configure({ presets: ['es2015', 'react'],

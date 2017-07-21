@@ -5,7 +5,7 @@
   "main": "./build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src --out-dir build",
+    "build": "webpack -p",
     "dev": "webpack-dev-server --colors --content-base build"
   },
   "repository": {
@@ -22,7 +22,7 @@
     "lodash": "^4.17.4",
     "prop-types": "^15.5.9",
     "react": "^15.5.4",
-    "react-data-grid": "2.0.41",
+    "react-data-grid": "2.0.54",
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
